@@ -3,6 +3,34 @@
 
 This repo is placeholder for upcoming Computational Neuroscience project of Bilkent University in 2020-2021.
 
+
+
+
+# Create Project Directory 
+```
+mkdir CompNeuro && cd CompNeuro
+git clone https://github.com/cankocagil/CompNeuro-VOS.git
+cd CompNeuro-VOS
+```
+
+Download the HaxBy dataset from  https://openfmri.org/dataset/ds000105 then put the under ./dataset/ directory
+
+```
+cp -a /source/. ./dataset/
+
+```
+
+# Push to Remote CompNeuro-VOS
+```
+git init
+git add -all
+git commit -m "fixed bugs"
+git branch -M main
+git remote add origin https://github.com/cankocagil/CompNeuro-VOS.git
+git push -u origin main
+```
+
+
 ### 
 
 
