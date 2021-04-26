@@ -49,7 +49,7 @@ Filename : CompNeuro_2021-2022_Final_Project.ipynb
 
 Authors : Arman Vural Budunoğlu and Can Kocagil
 
-Institution : Bilkent University Departman of Electric & Electronical Enginering
+Institution : Bilkent University Departmant of Electric & Electronical Enginering
 
 Class : EEE482/582 - Computational Neuroscience
 
