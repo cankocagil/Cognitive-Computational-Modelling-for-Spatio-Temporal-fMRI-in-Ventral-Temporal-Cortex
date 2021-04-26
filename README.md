@@ -6,21 +6,23 @@ This repo is placeholder for upcoming Computational Neuroscience project of Bilk
 
 
 
-# Create Project Directory 
+## Create Project Directory 
 ```
 mkdir CompNeuro && cd CompNeuro
 git clone https://github.com/cankocagil/CompNeuro-VOS.git
 cd CompNeuro-VOS
 ```
 
-# Download the HaxBy dataset from  https://openfmri.org/dataset/ds000105 then put the under ./dataset/ directory
+## Download the HaxBy dataset from  https://openfmri.org/dataset/ds000105
+
+Then put the datest under ./dataset/ directory
 
 ```
 cp -a /path-to/source/. ./dataset/
 
 ```
 
-# Install Dependencies
+## Install Dependencies
 ```
 pip install -r requirements.txt
 
@@ -29,7 +31,7 @@ pip install -r requirements.txt
 Notebook is ready to run!
 
 
-# Push to Remote CompNeuro-VOS
+##  Push to Remote CompNeuro-VOS
 ```
 git init
 git add -all
