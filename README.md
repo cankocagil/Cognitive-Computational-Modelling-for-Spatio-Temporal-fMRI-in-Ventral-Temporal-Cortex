@@ -35,7 +35,7 @@ Notebook is ready to run!
 ```
 git init
 git add -all
-git commit -m "fixed bugs"
+git commit -m "added ML algo"
 git branch -M main
 git remote add origin https://github.com/cankocagil/CompNeuro-VOS.git
 git push -u origin main
