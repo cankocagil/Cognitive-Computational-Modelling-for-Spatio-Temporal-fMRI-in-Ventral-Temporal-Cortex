@@ -15,7 +15,7 @@ cd CompNeuro-VOS
 
 ## Download the HaxBy dataset from  https://openfmri.org/dataset/ds000105
 
-Then put the datest under ./dataset/ directory
+Then put the HaxBy dataset under ./dataset/ directory
 
 ```
 cp -a /path-to/source/. ./dataset/
