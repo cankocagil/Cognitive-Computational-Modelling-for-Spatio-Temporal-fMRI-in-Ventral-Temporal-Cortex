@@ -1,10 +1,10 @@
 # For plotting
 import plotly.io as plt_io
 import plotly.graph_objects as go
+import numpy as np
 
 
-
-def plot_3d(component1,component2,component3):
+def plot_3d(component1: np.ndarray,component2 : np.ndarray,component3 :np.ndarray, y = None) -> None:
     fig = go.Figure(data=[go.Scatter3d(
             x=component1,
             y=component2,
@@ -19,7 +19,7 @@ def plot_3d(component1,component2,component3):
             )
         )])
     # tight layout
-        fig.update_layout(margin=dict(l=50,r=50,b=50,t=50),width=1800,height=1000)
-        fig.layout.template = 'plotly_dark'
-        
-        fig.show()
+    fig.update_layout(margin=dict(l=50,r=50,b=50,t=50),width=1800,height=1000)
+    fig.layout.template = 'plotly_dark'
+
+    fig.show()

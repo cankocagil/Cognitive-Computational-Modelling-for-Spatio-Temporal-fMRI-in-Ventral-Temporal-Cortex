@@ -1,8 +1,10 @@
 # For plotting
 import plotly.io as plt_io
 import plotly.graph_objects as go
+import numpy as np
 
-def plot_2d(component1, component2):
+
+def plot_2d(component1:np.ndarray, component2:np.ndarray, y = None) -> None:
     
     fig = go.Figure(data=go.Scatter(
         x = component1,
@@ -16,7 +18,7 @@ def plot_2d(component1, component2):
             line_width=1
         )
     ))
-    fig.update_layout(margin=dict( l=100,r=100,b=100,t=100),width=2000,height=1200)                 
+    fig.update_layout(margin=dict(l=100,r=100,b=100,t=100),width=2000,height=1200)                 
     fig.layout.template = 'plotly_dark'
     
     fig.show()
