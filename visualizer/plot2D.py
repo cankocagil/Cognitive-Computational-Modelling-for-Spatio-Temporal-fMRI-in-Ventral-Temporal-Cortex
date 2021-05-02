@@ -4,7 +4,7 @@ import plotly.graph_objects as go
 import numpy as np
 
 
-def plot_2d(component1:np.ndarray, component2:np.ndarray, y = None) -> None:
+def plot_2d(component1:np.ndarray, component2:np.ndarray,  path:str, y = None,) -> None:
     
     fig = go.Figure(data=go.Scatter(
         x = component1,
@@ -22,3 +22,6 @@ def plot_2d(component1:np.ndarray, component2:np.ndarray, y = None) -> None:
     fig.layout.template = 'plotly_dark'
     
     fig.show()
+    
+    
+    fig.write_image(path)

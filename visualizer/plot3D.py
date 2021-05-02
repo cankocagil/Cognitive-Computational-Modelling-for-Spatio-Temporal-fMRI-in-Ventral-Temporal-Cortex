@@ -4,7 +4,12 @@ import plotly.graph_objects as go
 import numpy as np
 
 
-def plot_3d(component1: np.ndarray,component2 : np.ndarray,component3 :np.ndarray, y = None) -> None:
+def plot_3d(component1: np.ndarray,
+            component2 : np.ndarray,
+            component3 :np.ndarray,
+            path:str,
+            y = None) -> None:
+    
     fig = go.Figure(data=[go.Scatter3d(
             x=component1,
             y=component2,
@@ -23,3 +28,4 @@ def plot_3d(component1: np.ndarray,component2 : np.ndarray,component3 :np.ndarra
     fig.layout.template = 'plotly_dark'
 
     fig.show()
+    fig.write_image(path)
