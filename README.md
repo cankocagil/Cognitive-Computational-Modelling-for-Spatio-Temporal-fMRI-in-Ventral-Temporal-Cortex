@@ -13,15 +13,6 @@ git clone https://github.com/cankocagil/CompNeuro-VOS.git
 cd CompNeuro-VOS
 ```
 
-## Download the HaxBy dataset from  https://openfmri.org/dataset/ds000105
-
-Then put the HaxBy dataset under ./dataset/ directory
-
-```
-cp -a /path-to/source/. ./dataset/
-
-```
-
 ## Install Dependencies
 ```
 pip install -r requirements.txt
@@ -31,6 +22,9 @@ pip install -r requirements.txt
 Notebook is ready to run!
 
 
+Note that the Haxby dataset is automatically fetching from the web, so there is no need to download and add it to the path.
+
+(For Colloborater)
 ##  Push to Remote CompNeuro-VOS
 ```
 git init
