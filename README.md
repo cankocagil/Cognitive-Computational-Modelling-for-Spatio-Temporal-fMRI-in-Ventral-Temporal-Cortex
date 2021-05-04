@@ -1,4 +1,4 @@
-# CompNeuro-VOS
+# CompNeuro-VOR
 
 
 This repo is placeholder for upcoming Computational Neuroscience project of Bilkent University in 2020-2021.
@@ -9,8 +9,8 @@ This repo is placeholder for upcoming Computational Neuroscience project of Bilk
 ## Create Project Directory 
 ```
 mkdir CompNeuro && cd CompNeuro
-git clone https://github.com/cankocagil/CompNeuro-VOS.git
-cd CompNeuro-VOS
+git clone https://github.com/cankocagil/CompNeuro-VOR.git
+cd CompNeuro-VOR
 ```
 
 ## Install Dependencies
