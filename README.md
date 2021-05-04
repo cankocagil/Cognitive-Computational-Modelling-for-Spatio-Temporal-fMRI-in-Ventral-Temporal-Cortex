@@ -24,7 +24,7 @@ Notebook is ready to run!
 
 Note that the Haxby dataset is automatically fetching from the web, so there is no need to download and add it to the path.
 
-(For Colloborater)
+(For Colloboraters)
 ##  Push to Remote CompNeuro-VOS
 ```
 git init
