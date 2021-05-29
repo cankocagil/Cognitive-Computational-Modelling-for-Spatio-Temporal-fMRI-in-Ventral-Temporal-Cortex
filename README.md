@@ -6,8 +6,8 @@ Visual decoding of distributed regions of the human ventral temporal cortex, sal
 ## Create Project Directory 
 ```
 mkdir CompNeuro && cd CompNeuro
-git clone https://github.com/cankocagil/CompNeuro-VOR.git
-cd CompNeuro-VOR
+git clone https://github.com/cankocagil/Cognitive-Computational-Modelling-for-Spatio-Temporal-fMRI-in-Ventral-Temporal-Cortex.git
+cd Cognitive-Computational-Modelling-for-Spatio-Temporal-fMRI-in-Ventral-Temporal-Cortex
 ```
 
 ## Install Dependencies
