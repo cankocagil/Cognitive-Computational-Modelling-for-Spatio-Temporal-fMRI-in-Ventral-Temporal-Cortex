@@ -21,4 +21,5 @@ Notebook is ready to run!
 
 Note that the Haxby dataset is automatically fetching from the web, so there is no need to download and add it to the path.
 
+Please refer paper for detailed description. 
 
