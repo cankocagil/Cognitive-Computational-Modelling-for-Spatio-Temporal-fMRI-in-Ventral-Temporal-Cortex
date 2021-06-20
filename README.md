@@ -2,7 +2,6 @@
 
 <p align="center">
   <img src="https://github.com/cankocagil/Cognitive-Computational-Modelling-for-Spatio-Temporal-fMRI-in-Ventral-Temporal-Cortex/blob/main/images/explanatory/glass_brain_white.png" />
-  <figcaption> Glass Brain Visualization </figcaption>
 </p>
 
 
